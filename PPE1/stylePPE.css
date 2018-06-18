@@ -1,0 +1,29 @@
+body{
+	background:url(fond_1.jpeg);
+	color:white;
+	font-size:15px;}
+nav{
+	margin-bottom:15 px; text-align:center;}
+h1{
+	margin-bottom:20px;}
+p{margin-bottom:15px;}
+nav ul li {display:inline-block}
+
+nav ul li a{color:white;text-decoration:none; background:silver;width:200px; height:35px;line-height:35px; display:inline-block; text-align:center;
+			font-weight:bolder; transition:1s; }
+
+
+nav ul li a:hover{background:grey; border:1px solid white; border-right:1px solid white;}
+img.nomclass{width: 100px; border-radius:50%;}
+
+nav ul li:hover{display:inline-block;transition:scaleY(1);}
+
+div{display:block;}
+
+img.photo{float:right ; padding-top: 50px ;  }
+a.lienTuto{display:inline-block;float:right; color:blue;}
+a.lientuto:hover{color:red;}
+div.central{width:1100px; margin:auto;}
+.nom{
+	float : right ; padding-left: 200px ;
+}
